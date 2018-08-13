@@ -9,8 +9,8 @@ cover: "" # image uri like logo/cover image for site seo
 
 google_analytics: UA-XXXXX-XX
 twitter_username: ""
-comments_enabled: false # if enabled (set to true), please provide your disqus_username
-disqus_shortname: ""
+comments_enabled: true # if enabled (set to true), please provide your disqus_username
+disqus_shortname: "likemagic-me"
 postshare_enabled: true
 
 # Build settings
@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name: "anonymous"
+  name: "jason shu"
 
 plugins:
   - jekyll-sitemap
