@@ -5,7 +5,7 @@ comments: true
 description: "My First Blog Ever"
 keywords: ""
 author: "jason shu"
-tags: [random]
+tags: [random, first]
 ---
 
 welcome. this is my first post ever.
