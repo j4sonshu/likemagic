@@ -39,6 +39,8 @@ hr {
 }
 
 .container {
+  @extend .clearfix;
+
   padding: $base-spacing;
   margin-left: auto;
   margin-right: auto;
