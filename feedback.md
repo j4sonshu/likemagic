@@ -4,12 +4,12 @@ title: have feedback?
 permalink: /feedback/
 ---
 
-<form method="POST" action="https://formspree.io/shumatt190@gmail.com" target="_blank">
+<form method="POST" action="https://formspree.io/likemagic.me@gmail.com" target="_blank">
 <input type="text" name="_gotcha" style="display:none" />
 
-<input type="text" name="name" placeholder="name">
-<input type="email" name="email" placeholder="email">
-<textarea name="message" placeholder="message"></textarea>
+<input type="text" name="name" placeholder="name" required>
+<input type="email" name="email" placeholder="email" required>
+<textarea name="message" placeholder="message" required></textarea>
 
 <button type="submit" target="_blank">Send</button>
 

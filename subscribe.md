@@ -5,9 +5,12 @@ permalink: /subscribe/
 ---
 
  <form style="text-align:left;" action="https://tinyletter.com/likemagic" method="post" target="_blank">
-    <p><input type="text" name="email" id="tlemail" data-behavior="placeholder" placeholder="email"/></p>
-    <input type="hidden" value="1" name="embed"/>
-    <input type="submit" value="subscribe"/>
+
+  <input type="text" name="email" id="tlemail" data-behavior="placeholder" placeholder="email" required/>
+    
+  <input type="hidden" value="1" name="embed"/>
+
+  <input type="submit" value="subscribe"/>
 
 </form>
 
@@ -15,3 +18,6 @@ permalink: /subscribe/
   <p>form provided by <a href="https://tinyletter.com/" target="_blank">TinyLetter</a></p>
 </aside>
 
+<script>
+
+</script>
