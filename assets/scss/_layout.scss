@@ -41,7 +41,11 @@ hr {
 .container {
   @extend .clearfix;
 
-  padding: $base-spacing;
+  padding-top: $base-spacing;
+  padding-bottom: 0;
+  padding-right: $base-spacing;
+  padding-left: $base-spacing;
+
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
@@ -79,19 +83,9 @@ hr {
     @extend .link;
   }
 
-  .container {
-    padding-bottom: 0;
-    padding-top: 0;
-  }
 }
 
 .page {
-    padding-bottom: 0;
-    padding-top: 0;
-}
-
-.post {
-    padding-bottom: 0;
     padding-top: 0;
 }
 
@@ -222,6 +216,7 @@ hr {
 .share {
   border-top: 0.2em dashed lighten($light-gray-color, 13%);
   padding-top: $base-spacing;
+  padding-bottom: $base-spacing;
   margin-top: $base-spacing * 2;
 
   p {
