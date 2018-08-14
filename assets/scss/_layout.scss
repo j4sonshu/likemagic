@@ -56,10 +56,8 @@ hr {
 
 .link {
   color: $blue-color;
-  padding-bottom: .05em;
+  padding-bottom: 0.05em;
   border-bottom: 2px solid transparent;
-
-  @include transition(border 300ms linear);
 
   &:hover,
   &:focus,
@@ -77,8 +75,8 @@ hr {
 .intro {
   .author-name {
     display: inline-block;
-    padding: 0 .2em;
-    background: lighten($light-gray-color, 15%)
+    padding: 0 0.2em;
+    background: lighten($light-gray-color, 15%);
   }
 
   a {
@@ -118,7 +116,7 @@ hr {
 
   li {
     display: inline-block;
-    padding: 0 .6em;
+    padding: 0 0.6em;
   }
 
   a {
@@ -155,7 +153,6 @@ hr {
     margin-top: 2px;
     @extend .pull-right;
   }
-
 }
 
 .post-meta {
@@ -184,16 +181,20 @@ hr {
 }
 
 .pagination {
-  li, a, span {
+  li,
+  a,
+  span {
     display: inline-block;
   }
 
-  a, span {
+  a,
+  span {
     font-size: rem(12);
-    padding: .5em;
+    padding: 0.5em;
   }
 
-  .prev, .next {
+  .prev,
+  .next {
     @extend .link;
   }
 }
@@ -240,20 +241,20 @@ hr {
 }
 
 .video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 
   iframe,
   object,
   embed {
-    position:absolute;
-  	top:0;
-  	left:0;
-  	width:100%;
-  	height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -291,4 +292,59 @@ hr {
       color: $blue-color;
     }
   }
+}
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: "";
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #eee;
+  border-top: 13px solid transparent;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: $blue-color;
+  color: white;
+}
+
+.tag:hover::after {
+  border-left-color: $blue-color;
 }

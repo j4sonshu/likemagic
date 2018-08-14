@@ -10,5 +10,8 @@ permalink: /subscribe/
     <input type="submit" value="subscribe"/>
 
 </form>
-<br>
-<p>form provided by <a href="https://tinyletter.com/" target="_blank">TinyLetter</a></p>
+
+<aside class="share">
+  <p>form provided by <a href="https://tinyletter.com/" target="_blank">TinyLetter</a></p>
+</aside>
+

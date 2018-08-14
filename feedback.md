@@ -15,5 +15,6 @@ permalink: /feedback/
 
 </form>
 
-<br>
-<p>form provided by <a href="https://github.com/formspree/formspree" target="_blank">Formspring</a></p>
+<aside class="share">
+  <p>form provided by <a href="https://github.com/formspree/formspree" target="_blank">Formspring</a></p>
+</aside>

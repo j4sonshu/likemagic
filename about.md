@@ -4,4 +4,4 @@ title: about me
 permalink: /about/
 ---
 
-just testing.
+coming soon.
