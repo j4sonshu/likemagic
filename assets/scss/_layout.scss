@@ -230,6 +230,14 @@ hr {
     font-size: rem(14);
     color: $medium-gray-color;
   }
+
+  a {
+    border:0px !important;
+  }
+
+  img {
+    width: 25px;
+  }
 }
 
 .disqus {
