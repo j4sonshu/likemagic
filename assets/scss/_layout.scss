@@ -104,7 +104,11 @@ hr {
 
   :hover {
     color: black;
-    text-shadow: -4px 3px 5px $blue-color;
+    text-shadow: -2px 2px 5px $blue-color;
+
+    span {
+      text-shadow: -2px 1px 5px $blue-color;
+    }
   }
 
   img {
@@ -157,7 +161,7 @@ hr {
   display: block;
 
   a {
-    color: $action-color;
+    color: $blue-color;
   }
 
   .article-title {
