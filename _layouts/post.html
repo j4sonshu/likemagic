@@ -1,5 +1,5 @@
 --- 
-layout: default 
+layout: default
 ---
 
 <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
@@ -15,5 +15,7 @@ layout: default
     {{ content }} {% include post-share.html %}
   </div>
 </article>
-
+<!-- for some reason it's page.comments and not post.comments -->
+{% if page.comments %}
 {% include comments.html %}
+{% endif %}
