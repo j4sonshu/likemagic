@@ -116,6 +116,7 @@ hr {
 }
 
 .nav {
+  border-bottom: 0.09em solid lighten($light-gray-color, 13%);
   min-height: 64px;
   display: block;
 }
@@ -280,6 +281,7 @@ hr {
   }
 
   .block {
+    border-top: 0.09em solid lighten($light-gray-color, 13%);
     display: block;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -301,17 +303,6 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-  }
-}
-
-.divider {
-  border-top: 0.2em solid lighten($light-gray-color, 13%);
-  //margin-top: $base-spacing * 2;
-}
-
-.nav {
-  .divider {
-    margin-top: 0;
   }
 }
 
