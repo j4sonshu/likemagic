@@ -8,4 +8,4 @@ author: "jason shu"
 tags: [a, b, c, d, long, longertext]
 ---
 
-welcome. this is my first post ever.
+Welcome. This is my first post ever.

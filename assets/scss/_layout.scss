@@ -115,6 +115,7 @@ hr {
 
 .nav {
   min-height: 64px;
+  display: block;
 }
 
 .navbar {
@@ -260,7 +261,7 @@ hr {
   @extend .clearfix;
 
   padding: $base-spacing 0;
-
+  
   a {
     @extend .link;
   }
