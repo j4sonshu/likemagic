@@ -12,7 +12,7 @@ to the `site_tags` variable. -->
 {% assign tag_words = site_tags | split:',' | sort %}
 
 <!-- List of all tags -->
-<ul class="tags">
+<ul class="page-tags">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
     <li class>

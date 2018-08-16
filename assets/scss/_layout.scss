@@ -231,24 +231,9 @@ hr {
   margin-top: $base-spacing * 3;
 
   p {
-    margin: 0 5em;
+    margin-left: 0;
     font-size: rem(14);
-    color: $medium-gray-color;
   }
-
-  a {
-    :hover,
-    :focus,
-    :active {
-      border-bottom: 2px solid transparent;
-      color: $blue-color;
-    }
-  }
-
-  img {
-    width: 25px;
-  }
-  
 }
 
 .disqus {
@@ -330,13 +315,13 @@ hr {
   }
 }
 
-.tags {
+.page-tags {
   list-style: none;
   margin: 0;
   overflow: hidden;
 }
 
-.tags li {
+.page-tags li {
   float: left;
 }
 
@@ -349,8 +334,7 @@ hr {
   padding: 0 20px 0 23px;
   position: relative;
   margin: 0 10px 10px 0;
-
-  transition: none !important;
+  border-bottom: 0 !important;
 }
 
 .tag::before {
@@ -363,6 +347,7 @@ hr {
   position: absolute;
   width: 6px;
   top: 10px;
+  transition: 150ms linear;
 }
 
 .tag::after {
@@ -374,13 +359,16 @@ hr {
   position: absolute;
   right: 0;
   top: 0;
+  transition: 150ms linear;
 }
 
 .tag:hover {
   background-color: $blue-color;
   color: white;
+  transition: 150ms linear;
 }
 
 .tag:hover::after {
   border-left-color: $blue-color;
+  transition: 150ms linear;
 }
