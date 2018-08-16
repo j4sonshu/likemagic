@@ -42,7 +42,7 @@ hr {
   @extend .clearfix;
 
   padding-top: $base-spacing;
-  padding-bottom: 0;
+  padding-bottom: $base-spacing;
   padding-right: $base-spacing;
   padding-left: $base-spacing;
 
@@ -50,6 +50,18 @@ hr {
   margin-right: auto;
   max-width: 800px;
   font-weight: normal;
+}
+
+.nav {
+  .container {
+    padding-bottom: 0;
+  }
+}
+
+.site-footer {
+  .container {
+    padding-top: 0;
+  }
 }
 
 .pull-left {
@@ -83,10 +95,6 @@ hr {
     @extend .link;
   }
 
-}
-
-.page {
-    padding-top: 0;
 }
 
 .logo {
@@ -185,7 +193,6 @@ hr {
 
 .post-title {
   margin-top: 0;
-  margin-bottom: 1em;
   color: $dark-gray-color;
 }
 
@@ -220,10 +227,11 @@ hr {
 
 .share {
   @extend .clearfix;
-  //border-top: 0.2em dashed lighten($light-gray-color, 13%);
-  padding-top: $base-spacing;
-  padding-bottom: $base-spacing;
-  
+  //border: 0.2em dashed lighten($light-gray-color, 13%);
+  //padding: $base-spacing;
+  //padding-bottom: $base-spacing;
+
+  // space from post
   margin-top: $base-spacing * 3;
 
   p {
