@@ -71,6 +71,8 @@ hr {
   padding-bottom: 0.05em;
   border-bottom: 2px solid transparent;
 
+  transition: 150ms linear;
+
   &:hover,
   &:focus,
   &:active {
@@ -155,7 +157,7 @@ hr {
   display: block;
 
   a {
-    color: $blue-color;
+    color: $action-color;
   }
 
   .article-title {
@@ -333,7 +335,6 @@ hr {
   list-style: none;
   margin: 0;
   overflow: hidden;
-  
 }
 
 .tags li {
@@ -349,6 +350,8 @@ hr {
   padding: 0 20px 0 23px;
   position: relative;
   margin: 0 10px 10px 0;
+
+  transition: none !important;
 }
 
 .tag::before {
