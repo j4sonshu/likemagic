@@ -42,7 +42,7 @@ hr {
   @extend .clearfix;
 
   padding-top: $base-spacing;
-  padding-bottom: 0;
+  //padding-bottom: 0;
   padding-right: $base-spacing;
   padding-left: $base-spacing;
 
@@ -297,7 +297,12 @@ hr {
 .divider {
   border-top: 0.2em solid lighten($light-gray-color, 13%);
   margin-top: $base-spacing * 2;
-  padding-top: 5px;
+}
+
+.nav {
+  .divider {
+    margin-top: 0;
+  }
 }
 
 // This applies from 0px to 600px
