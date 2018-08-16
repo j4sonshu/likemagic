@@ -53,6 +53,11 @@ hr {
 }
 
 .nav {
+
+  border-bottom: 0.09em solid lighten($light-gray-color, 13%);
+  min-height: 64px;
+  display: block;
+
   .container {
     padding-bottom: 0;
   }
@@ -109,12 +114,6 @@ hr {
   img {
     height: 20px;
   }
-}
-
-.nav {
-  border-bottom: 0.09em solid lighten($light-gray-color, 13%);
-  min-height: 64px;
-  display: block;
 }
 
 .navbar {
