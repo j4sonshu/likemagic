@@ -23,8 +23,6 @@ to the `site_tags` variable. -->
   {% endunless %}{% endfor %}
 </ul>
 
-<div class="divider"></div>
-
 <!-- Posts by Tag -->
 <div>
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}

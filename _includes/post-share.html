@@ -4,28 +4,14 @@
 
 <aside class="share">
 
-  <!-- tags-->
-  <div>
-    <div>
-      <p>tags:<br /></p>
-      <p style="padding-top: 5px;">{% for tag in page.tags %} {% capture tag_name %}{{ tag }}{% endcapture %}
-
-        <a href="/tags#{{ tag_name }}" class="tag">
-          <nobr>{{ tag_name }}</nobr>
-        </a>
-
+    <!-- tags -->
+    <p>
+      {% for tag in page.tags %} {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tags#{{ tag_name }}" class="tag">{{ tag_name }}</a>
       {% endfor %}
-      </p>
-
-
-   </div>
-
-    <div>
-      <p>share:</p>
-      <p class = "sharethis-inline-share-buttons" style="padding-top: 5px;"></p>
-    </div>
-    
-</div>
+    </p>
+    <!-- social -->
+    <p class="sharethis-inline-share-buttons"></p>
 
 </aside>
 {% endif %}

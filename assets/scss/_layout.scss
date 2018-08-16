@@ -42,7 +42,7 @@ hr {
   @extend .clearfix;
 
   padding-top: $base-spacing;
-  //padding-bottom: 0;
+  padding-bottom: 0;
   padding-right: $base-spacing;
   padding-left: $base-spacing;
 
@@ -102,15 +102,9 @@ hr {
     font-weight: 700;
   }
 
-  :hover {
-    color: black;
-    text-shadow: -1px 2px 3px $blue-color;
-  }
-
   img {
     height: 20px;
   }
-
 }
 
 .nav {
@@ -162,6 +156,10 @@ hr {
   }
 
   .article-title {
+    //lead
+    font-size: rem(22);
+    font-weight: 300;
+
     display: inline-block;
     width: 85%;
     //border-bottom: 1px dashed lighten($light-gray-color, 10%);
@@ -225,7 +223,7 @@ hr {
   border-top: 0.2em dashed lighten($light-gray-color, 13%);
   padding-top: $base-spacing;
   padding-bottom: $base-spacing;
-  margin-top: $base-spacing * 2;
+  margin-top: $base-spacing * 3;
 
   p {
     margin: 0 5em;
@@ -260,7 +258,7 @@ hr {
 .site-footer {
   @extend .clearfix;
 
-  padding: $base-spacing 0;
+  text-align: center;
   
   a {
     @extend .link;
@@ -274,6 +272,8 @@ hr {
 
   .block {
     display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
   }
 }
 
@@ -297,7 +297,7 @@ hr {
 
 .divider {
   border-top: 0.2em solid lighten($light-gray-color, 13%);
-  margin-top: $base-spacing * 2;
+  //margin-top: $base-spacing * 2;
 }
 
 .nav {
@@ -340,6 +340,7 @@ hr {
   list-style: none;
   margin: 0;
   overflow: hidden;
+  
 }
 
 .tags li {

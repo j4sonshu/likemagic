@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-{% include intro.html %}
+<!-- {% include intro.html %} -->
 
 <section class="post-list">
   <div class="container">
@@ -17,12 +17,15 @@ title: Home
           <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
         {% endif %}
       {% endunless %}
+
       <article class="post-item">
         <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a> - <span> {{ post.content | strip_html | truncatewords: 10 }}</span></div>
+        <div class="article-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+        </div>
       </article>
 
-      <!-- 
+      <!-- post with description
       <article class="post-item">
         <p><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> — <strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{
               post.title }}</a></strong> — <span> {{ post.content | strip_html | truncatewords: 40 }}</span> <a class="post-link readmore"
