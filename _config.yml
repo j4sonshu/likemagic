@@ -11,7 +11,6 @@ google_analytics: UA-XXXXX-XX
 twitter_username: ""
 comments_enabled: true # if enabled (set to true), please provide your disqus_username
 disqus_shortname: "likemagic-me"
-postshare_enabled: true
 
 # Build settings
 permalink: /:year/:title/
