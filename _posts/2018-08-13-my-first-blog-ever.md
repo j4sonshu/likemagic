@@ -2,7 +2,7 @@
 layout: post
 title: "My First Blog Ever"
 description: "My First Blog Ever"
-comments: true
+comments: false
 keywords: ""
 author: "jason shu"
 tags: [a, b, c, d, long, longertext]

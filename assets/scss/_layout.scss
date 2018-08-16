@@ -220,9 +220,10 @@ hr {
 
 .share {
   @extend .clearfix;
-  border-top: 0.2em dashed lighten($light-gray-color, 13%);
+  //border-top: 0.2em dashed lighten($light-gray-color, 13%);
   padding-top: $base-spacing;
   padding-bottom: $base-spacing;
+  
   margin-top: $base-spacing * 3;
 
   p {
