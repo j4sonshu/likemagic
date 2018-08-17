@@ -1,7 +1,7 @@
 ---
 layout: page
 title: have feedback?
-permalink: /feedback/
+permalink: 
 ---
 
 <form method="POST" action="https://formspree.io/likemagic.me@gmail.com" target="_blank">

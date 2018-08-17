@@ -1,7 +1,7 @@
 ---
 layout: page
 title: subscribe
-permalink: /subscribe/
+permalink: 
 ---
 
  <form style="text-align:left;" action="https://feedburner.google.com/fb/a/mailverify?uri=likemagic&amp;loc=en_US" method="post" target="_blank">
