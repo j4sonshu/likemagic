@@ -8,25 +8,25 @@ tags: [javascript, tutorial]
 
 In this tutorial, I'll be walking through how you can build your own Twitter Bot that filters real-time tweets containing a chosen keyword.
 
-If you feel like skipping the tutorial, download the the [source code here](https://github.com/j4sonshu/TwitterBot).
+If you feel like skipping the tutorial, download the the [source code here](https://github.com/j4sonshu/TwitterBot){:target="_blank"}.
 <br><br>
 
 <h3>What You Will Need</h3>
-- [Node.js](https://nodejs.org/en/)
+- [Node.js](https://nodejs.org/en/){:target="_blank"}
 
-- A [Twitter Account](https://twitter.com/i/flow/signup)
+- A [Twitter Account](https://twitter.com/i/flow/signup){:target="_blank"}
 
-- A text editor (I recommend [Sublime Text](https://www.sublimetext.com/))
+- A text editor (I recommend [Sublime Text](https://www.sublimetext.com/){:target="_blank"})
 
 Before continuing, make sure you have all 3 of these items.
 <br><br>
 
 <h3>Create a Twitter App</h3>
-1. Apply for a Twitter [developer account](https://apps.twitter.com/). Fill out the application accordingly.
+1. Apply for a Twitter [developer account](https://apps.twitter.com/){:target="_blank"}. Fill out the application accordingly.
 
     - **Note:** As of July 2018, you must be approved for a Twitter developer account before you can create apps.
 
-2. Once approved, go back to [Twitter Apps](https://apps.twitter.com/) and click "Create New App".
+2. Once approved, go back to [Twitter Apps](https://apps.twitter.com/){:target="_blank"} and click "Create New App".
    <br><br>
 
 <h3>Twitter App Permissions and Keys</h3>
@@ -113,4 +113,6 @@ Congrats! You've now created a Twitter Bot using Twitter API.
 
 Again, don't share your Twitter keys to the public!
 
-Read more about the [Twitter Stream API here](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters.html).
+Read more about the [Twitter Stream API here](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters.html){:target="_blank"}.
+
+[&uarr; Back to Top](#)
