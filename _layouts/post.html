@@ -11,7 +11,7 @@ layout: default
 
       {% if page.author %} &middot;
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name" style="text-transform: lowercase">{{ page.author }}</span>
+        <span itemprop="name">by {{ page.author }}</span>
       </span>
       {% endif %}
     </p>
