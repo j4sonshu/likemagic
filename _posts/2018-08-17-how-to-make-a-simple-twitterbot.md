@@ -6,17 +6,17 @@ author: "Jason Shu"
 tags: [javascript, tutorial]
 ---
 
-In this tutorial, I'll be walking through how you can build your own Twitter Bot that filters real-time tweets containing a chosen keyword.
+In this tutorial, I'll be walking through how you can build your own Twitter Bot that filters real-time tweets containing a chosen keyword. Basically, can think of a word and be able to see tweets using that word.
 
-If you feel like skipping the tutorial, download the the [source code here](https://github.com/j4sonshu/TwitterBot){:target="_blank"}.
+If you feel like skipping the tutorial, download the the [source code here](https://github.com/j4sonshu/TwitterBot){:target="\_blank"}.
 <br><br>
 
 <h3>What You Will Need</h3>
 - [Node.js](https://nodejs.org/en/){:target="_blank"}
 
-- A [Twitter Account](https://twitter.com/i/flow/signup){:target="_blank"}
+- A [Twitter Account](https://twitter.com/i/flow/signup){:target="\_blank"}
 
-- A text editor (I recommend [Sublime Text](https://www.sublimetext.com/){:target="_blank"})
+- A text editor (I recommend [Sublime Text](https://www.sublimetext.com/){:target="\_blank"})
 
 Before continuing, make sure you have all 3 of these items.
 <br><br>
@@ -26,7 +26,7 @@ Before continuing, make sure you have all 3 of these items.
 
     - **Note:** As of July 2018, you must be approved for a Twitter developer account before you can create apps.
 
-2. Once approved, go back to [Twitter Apps](https://apps.twitter.com/){:target="_blank"} and click "Create New App".
+2. Once approved, go to the new [Twitter Apps](https://developer.twitter.com/en/apps){:target="\_blank"} and click "Create New App".
    <br><br>
 
 <h3>Twitter App Permissions and Keys</h3>
@@ -91,7 +91,7 @@ Now, let's move onto some code.
    });
    ```
 
-   Behind the scenes: `'statuses/filter'` tells Twitter we're listening for tweets containing a certain keyword, which is indicated in the second parameter `track:`. Then we output the `tweet` and the tweet's `tweet.text`, to the console. The purpose of `\n` is just to provide a line of space between each tweet for readability.
+   **Behind the scenes**: `'statuses/filter'` tells Twitter we're listening for tweets containing a certain keyword, which is indicated in the second parameter `track:`. Then we output the `tweet` and the tweet's `tweet.text`, to the console. The purpose of `\n` is just to provide a line of space between each tweet for readability.
    <br><br>
 
 <h3>Streaming Real-Time Tweets</h3>
@@ -113,6 +113,6 @@ Congrats! You've now created a Twitter Bot using Twitter API.
 
 Again, don't share your Twitter keys to the public!
 
-Read more about the [Twitter Stream API here](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters.html){:target="_blank"}.
+Read more about the [Twitter Stream API here](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters.html){:target="\_blank"}.
 
 [&uarr; Back to Top](#)
