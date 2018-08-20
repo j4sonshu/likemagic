@@ -53,7 +53,7 @@ Keep the command line open; we'll need it again later.
 Now, let's move onto some code.
 <br><br>
 
-<h3>Setting Up the Twitter Object</h3>
+<h3>Setting Up the Twitter Stream</h3>
 1. Open up your favorite text editor.
 
 2. Create a new file and name it `search.js`. Save the file in your TwitterBot folder.
