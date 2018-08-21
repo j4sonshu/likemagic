@@ -18,7 +18,7 @@ If you feel like skipping the tutorial, download the the [source code here](http
 
 - A text editor (I recommend [Sublime Text](https://www.sublimetext.com/){:target="\_blank"})
 
-Before continuing, make sure you have all 3 of these items.
+Before continuing, make sure you have these items ***installed***.
 <br><br>
 
 <h3>Create a Twitter App</h3>
@@ -42,9 +42,9 @@ Before continuing, make sure you have all 3 of these items.
 
 3. Navigate to your newly created folder using `cd`.
 
-   - For example, if your folder is on the Desktop, type `cd Desktop`, press Enter, type `cd TwitterBot`, and press Enter.
+   - For example, if your folder is on the Desktop, type `cd Desktop`, press `Enter`, type `cd TwitterBot`, and press `Enter`.
 
-4. Install the `twitter` package by typing `npm install twitter` and pressing Enter.
+4. Install the `twitter` package by typing `npm install twitter` and pressing `Enter`.
 
    - After installation, make sure that `node_modules` is in the folder.
 
@@ -105,8 +105,10 @@ Now, let's move onto some code.
 
    - If you accidentally closed it, go back [here](#acc) follow steps 2-3.
 
-3. Type `node search.js` to run your TwitterBot.
-   <br><br>
+3. Type `node search.js` and press `Enter` to run your TwitterBot.
+
+  - To stop the program, press `ctrl` and `c`.
+  <br><br>
 
 <h3>Closing Thoughts</h3>
 Congrats! You've now created a Twitter Bot using Twitter API.
