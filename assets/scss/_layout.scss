@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
 * {
   &,
   &:before,
@@ -113,7 +114,7 @@ hr {
 }
 
 .logo-me {
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: normal;
   font-weight: normal;
 }
@@ -140,13 +141,19 @@ hr {
 }
 
 @media all and (max-width: 600px) {
+  /*
   .logo,
   .navbar {
     display: block;
     float: none;
     width: 100%;
-    padding-top: 15px;
   }
+
+  .navbar {
+    // navbar under logo
+    padding-top: 10px;
+  }
+  */
 
   .date-label {
     float: left !important;
@@ -262,6 +269,8 @@ hr {
   // space from post
   margin-top: $base-spacing * 2;
 
+  font-family: "Roboto Mono", monospace;
+
   p {
     margin-left: 0;
     font-size: rem(14);
@@ -321,6 +330,9 @@ hr {
   list-style: none;
   margin: 0;
   overflow: hidden;
+  font-size: 14px;
+
+  font-family: "Roboto Mono", monospace;
 }
 
 .page-tags li {
@@ -374,6 +386,7 @@ hr {
 .article-tags {
   padding-top: 5px;
   font-size: 14px;
+  font-family: "Roboto Mono", monospace;
 }
 
 .article-tags a {
