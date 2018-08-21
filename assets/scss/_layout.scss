@@ -75,8 +75,6 @@ hr {
   padding-bottom: 0.05em;
   border-bottom: 2px solid transparent;
 
-  transition: 150ms linear;
-
   &:hover,
   &:focus,
   &:active {
@@ -161,10 +159,6 @@ hr {
     border: 1px solid lighten($light-gray-color, 10%);
     padding: 0 0.5em;
     background: lighten($light-gray-color, 15%);
-  }
-
-  .article-title {
-    border-bottom: none !important;
   }
 
   .link {
@@ -342,7 +336,6 @@ hr {
   position: relative;
   margin: 0 10px 10px 0;
   border-bottom: 0 !important;
-  transition: 150ms linear;
 }
 
 .tag::before {
@@ -355,7 +348,6 @@ hr {
   position: absolute;
   width: 6px;
   top: 10px;
-  transition: 150ms linear;
 }
 
 .tag::after {
@@ -367,18 +359,15 @@ hr {
   position: absolute;
   right: 0;
   top: 0;
-  transition: 150ms linear;
 }
 
 .tag:hover {
   background-color: $blue-color;
   color: white;
-  transition: 150ms linear;
 }
 
 .tag:hover::after {
   border-left-color: $blue-color;
-  transition: 150ms linear;
 }
 
 .article-tags {
