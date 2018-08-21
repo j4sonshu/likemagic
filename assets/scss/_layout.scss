@@ -58,9 +58,11 @@ hr {
   min-height: 64px;
   display: block;
 
+  /* remove extra bottom space on nav
   .container {
     padding-bottom: 0;
   }
+  */
 }
 
 .pull-left {
