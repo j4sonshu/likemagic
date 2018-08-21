@@ -18,7 +18,7 @@ If you feel like skipping the tutorial, download the the [source code here](http
 
 - A text editor (I recommend [Sublime Text](https://www.sublimetext.com/){:target="\_blank"})
 
-Before continuing, make sure you have these items ***installed***.
+Before continuing, make sure you have these items **installed**.
 <br><br>
 
 <h3>Create a Twitter App</h3>
