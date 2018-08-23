@@ -26,14 +26,22 @@ Before continuing, make sure you have these items **installed**.
 
     - **Note:** As of July 2018, you must be approved for a Twitter developer account before you can create apps.
 
-2. Once approved, go to the new [Twitter Apps](https://developer.twitter.com/en/apps){:target="\_blank"} and click "Create New App".
+2. Once approved, go to the new [Twitter Apps](https://developer.twitter.com/en/apps){:target="\_blank"} and click "Create New App". Fill out the appropriate details.
    <br><br>
 
 <h3>Twitter App Permissions and Keys</h3>
-1. s
+1. Open up your newly created app, and find the "Permissions" tab.
 
-2. s
-   <br><br>
+2. Change the access to "Read and Write" and click "Update Settings".
+
+3. Now find the "Keys and Tokens" tab. Find your "Consumer Key (API Key)" and "Consumer Secret (API Secret)" keys. Save these numbers; we will need them for later.
+
+4. Scroll down the same page to find the "Create my access token" button and click it. Twitter should generate an "Access Token" and "Access Token Secret". Save these numbers as well.
+
+At this point, make sure you have a Consumer Key, Consumer Secret, Access Token, and Access Token Secret jotted down somewhere.
+
+**Note:** DO NOT share these keys with the public, as they are basically passwords to your Twitter app.
+<br><br>
 
 <h3 id="acc">Install Twitter through Node.js </h3>
 1. Create a new folder where you want your TwitterBot to go (i.e. Desktop) and give it a name (i.e. TwitterBot).
@@ -107,13 +115,13 @@ Now, let's move onto some code.
 
 3. Type `node search.js` and press `Enter` to run your TwitterBot.
 
-  - To stop the program, press `ctrl` and `c`.
+- To stop the program, press `ctrl` and `c`.
   <br><br>
 
 <h3>Closing Thoughts</h3>
 Congrats! You've now created a Twitter Bot using Twitter API.
 
-Again, don't share your Twitter keys to the public!
+**Again, don't share your Twitter keys to the public!**
 
 Read more about the [Twitter Stream API here](https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters.html){:target="\_blank"}.
 
