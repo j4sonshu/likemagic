@@ -58,11 +58,10 @@ hr {
   min-height: 64px;
   display: block;
 
-  /* remove extra bottom space on nav
+  // remove extra bottom space on nav
   .container {
     padding-bottom: 0;
   }
-  */
 }
 
 .pull-left {
@@ -149,12 +148,14 @@ hr {
     float: none;
     width: 100%;
   }
-
-  .navbar {
-    // navbar under logo
-    padding-top: 10px;
-  }
   */
+  .navbar {
+    float: right;
+  }
+
+  .logo-me {
+    font-size: 12px;
+  }
 
   .date-label {
     float: left !important;
