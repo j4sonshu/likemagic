@@ -1,7 +1,7 @@
 ---
 layout: page
-title: have feedback?
-permalink: 
+title: say hello
+permalink: /sayhello/
 ---
 
 <form method="POST" action="https://formspree.io/likemagic.me@gmail.com" target="_blank">
@@ -15,7 +15,3 @@ permalink:
 <input type="submit" value="send"/>
 
 </form>
-
-<aside class="share">
-  <p>form provided by <a href="https://github.com/formspree/formspree" target="_blank">Formspring</a></p>
-</aside>
