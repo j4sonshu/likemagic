@@ -51,6 +51,11 @@ hr {
   margin-right: auto;
   max-width: 800px;
   font-weight: normal;
+
+  // intro
+  .lead {
+    margin: 0;
+  }
 }
 
 .nav {
@@ -103,6 +108,7 @@ hr {
   font-size: 20px;
   line-height: 28px;
   font-weight: 300;
+  display: block;
 
   span {
     font-weight: 700;
@@ -116,12 +122,14 @@ hr {
 .logo-me {
   font-size: 12px;
   letter-spacing: normal;
+  cursor: auto;
 }
 
 .logo-me a {
   @extend .link;
 }
 
+/*
 .navbar {
   float: right;
   margin: 0;
@@ -138,6 +146,7 @@ hr {
     @extend .link;
   }
 }
+*/
 
 @media all and (max-width: 600px) {
   /*
@@ -147,10 +156,11 @@ hr {
     float: none;
     width: 100%;
   }
-  */
+  
   .navbar {
     float: right;
   }
+  */
 
   .date-label {
     float: left !important;
@@ -173,11 +183,6 @@ hr {
       color: $blue-color;
     }
   }
-  /*
-  .article-tags {
-    display: none;
-  }
-  */
 }
 
 .category-title {
@@ -197,17 +202,14 @@ hr {
   }
 
   .article-title {
-    //lead
     font-size: rem(22);
     font-weight: 300;
 
     display: inline-block;
     width: 85%;
-    //border-bottom: 1px dashed lighten($light-gray-color, 10%);
   }
 
   .date-label {
-    //border: 1px solid lighten($light-gray-color, 10%);
     padding: 0 0.2em;
     margin-left: 1em;
     margin-top: 2px;
