@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Make a Simple Twitter Bot"
-comments: true
+comments: 
 author: "Jason Shu"
 tags: [javascript, tutorial]
 ---
