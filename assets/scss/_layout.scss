@@ -389,20 +389,20 @@ hr {
   width: 100%;
   text-align: left;
   border-collapse: separate;
-}
 
-.the-list td {
-  padding: 5px 10px 5px 0;
-}
+  th, td {
+    padding: 5px 10px 5px 0;
+  }
 
-.the-list p {
-  margin: 0 !important;
-  color: $blue-color;
+  p {
+    margin: 0 !important;
+    color: $blue-color;
 
-  &:hover,
-  &:focus,
-  &:active {
-    cursor: pointer;
+    &:hover,
+    &:focus,
+    &:active {
+      cursor: pointer;
+    }
   }
 }
 
