@@ -30,8 +30,9 @@ body {
 
 body {
   background-color: $base-background-color;
-  background-image: url(../images/bg.jpeg);
-  background-size: cover;
+  background-image: url(../images/bg-repeat.jpg);
+  // background-size: cover;
+  background-repeat: repeat;
 }
 
 hr {
