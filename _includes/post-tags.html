@@ -2,7 +2,7 @@
     <!-- tags -->
     <p>
       {% for tag in page.tags %} {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="{{ site.url }}/tags#{{ tag_name }}" class="tag">{{ tag_name }}</a>
+      <a href="/tags#{{ tag_name }}" class="tag">{{ tag_name }}</a>
       {% endfor %}
     </p>
 </aside>
