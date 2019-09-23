@@ -131,7 +131,7 @@ I've decided to put these books in a table (in this post) so that (1) I have a c
     <tr>
       <td><a href ="https://www.amazon.com/Enquire-Within-upon-Everything-1890/dp/187359030X" target="_blank">Enquire Within Upon Everything</a></td>
       <td>Daniel Keyes</td>
-      <td>Science Fiction</td>
+      <td>Non-Fiction</td>
     </tr>
 
   </tbody>
