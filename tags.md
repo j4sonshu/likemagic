@@ -33,7 +33,7 @@ to the `site_tags` variable. -->
     {% for post in site.tags[this_word] %}{% if post.title != null %}
       <div>
         <span style="float: left;">
-          <a href="{{ prepend: post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">{{ post.title }}</a>
         </span>
         <span style="float: right;">
           {{ post.date | date_to_string }}
