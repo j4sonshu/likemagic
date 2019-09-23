@@ -2,7 +2,10 @@
   <div class="container">
     <p class="lead">
       I am a junior in college studying computer science.<br />
-      Welcome to my minimalistic blog.<br /><a href="/sayhello">say hello</a>
+      Welcome to my minimalistic blog.<br /><a
+        href="{{ prepend: site.baseurl | '/' | prepend: site.url | '/' | '/sayhello' }}"
+        >say hello</a
+      >
     </p>
   </div>
 </section>
